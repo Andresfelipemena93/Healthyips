@@ -1,5 +1,5 @@
 /******* Bootstrap Theming ********/
-/*!
+/*
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
@@ -42,8 +42,10 @@
   box-sizing: border-box;
 }
 
+
+
 html {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -64,6 +66,19 @@ body {
   background-color: #fff;
 }
 
+.text-ips{
+  color: #009fd9;
+}
+
+.text-ipsFondos{
+  color: #0c359e;
+}
+
+.bton-ips{
+  background-color: #0c359e;
+}
+
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -75,6 +90,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif !important;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -152,14 +168,15 @@ sup {
 }
 
 a {
-  color: #FF6600;
+  color: #009fd9;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #b34700;
-  text-decoration: underline;
+  color: #081b7d;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -2371,39 +2388,39 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #009fd9;
+  border-color: #009fd9;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #d95700;
-  border-color: #cc5200;
+  background-color: #06246e;
+  border-color: #06246e;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #d95700;
-  border-color: #cc5200;
-  box-shadow: 0 0 0 0.2rem rgba(255, 125, 38, 0.5);
+  background-color: #0c359e;
+  border-color: #0c359e;
+  box-shadow: 0 0 0 0.2rem rgba(81, 81, 81, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #0c359e;
+  border-color: #0c359e;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cc5200;
-  border-color: #bf4d00;
+  background-color: #0c359e;
+  border-color: #0c359e;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 125, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(40, 40, 40, 0.5);
 }
 
 .btn-secondary {
@@ -4074,7 +4091,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #FF6600;
+  background-color: #009fd9;
 }
 
 .nav-fill > .nav-link,
@@ -6423,10 +6440,10 @@ button.bg-light:hover,
 button.bg-light:focus {
   background-color: #e6e6e6 !important;
 }
-
-.bg-dark {
-  background-color: #44425A !important;
+.bg-ips{
+  background-color: #009fd9;
 }
+
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -9772,7 +9789,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #FF6600;
+  color: #009fd9;
 }
 
 @media (max-width: 991.98px) {
@@ -9817,7 +9834,7 @@ h6,
 }
 
 .carousel-indicators .active {
-  background: #FF6600;
+  background: #009fd9;
 }
 
 @media (max-width: 991.98px) {
